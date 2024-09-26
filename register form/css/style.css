@@ -1,0 +1,70 @@
+body{
+	margin:0;
+	padding:0;
+	background-image:url("../images/bg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+
+}
+img
+{
+	border-radius:50%;
+	position:absolute;
+	margin-left:150px;
+	margin-top:-160px;
+}
+	
+	
+.container
+{
+	top:65%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	
+	}
+.card
+{
+	padding:60px 40px 50px 40px;
+	border:1px solid black;
+	background:rgba(0,0,0,0.5);
+	border-radius:20px;
+	box-shadow:inset -5px -5px rgba(0,0,0,0.5);
+}
+.card #name{
+align:center;
+}
+.card h2
+{
+	border-bottom:4px solid rgba(255,255,255,0.5);
+}
+#name
+{
+	width:200px;
+	border:none;
+	background:transparent;
+	border:1px solid white;
+	border-radius:4px;
+	padding:6px;
+	margin-bottom:10px;
+	color:white;
+	}
+#button
+{
+	border:1px solid blue;
+	padding:3% 45%;
+	background:dodgerblue;
+	margin-top:10px;
+	border-radius:20px;
+	color:white;
+	font-style:italic;
+	border:none;
+	outline:none
+	
+}
+#button:hover
+{
+	background-color:greenyellow;
+	color:black;
+}
